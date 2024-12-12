@@ -73,8 +73,9 @@ export default function Header() {
               </li>
             </ul>
           </div>
-          {/* Mobile Menu */}
-          <div className="block md:hidden bg-[#f24c00] py-8 pr-20 pl-32 rounded-md -mr-16">
+          {/* Mobile Menu Button*/}
+          <div className="block md:hidden bg-[#f24c00] py-8 pr-10 sm:pr-20 pl-28 sm:pl-32 rounded-md -mr-10 sm:-mr-16">
+            {/* <div className="block md:hidden bg-[#f24c00] py-8 "> */}
             <button onClick={() => setIsOpen(!IsOpen)}>
               <FaAlignRight className="text-xl text-white" />
             </button>
