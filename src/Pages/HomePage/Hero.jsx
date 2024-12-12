@@ -1,14 +1,14 @@
-import { OrangeBtn } from "../../Components/OrangeBtn";
+import { OrangeBtn } from "../../Components/Buttons";
 
 export default function Hero() {
   return (
-    <section className="mt-10">
+    <section className="md:-mt-14">
       <div className="container">
         <div className="md:flex justify-between">
           <div className="md:w-7/12">
             <div className="-ml-96 bg-[#f4e2d9] pt-24 md:pt-32 lg:pt-80 pr-10 lg:pr-20 pb-64 md:pb-10 rounded-br-[20%]">
               <div className="ml-96">
-                <h2 className="text-4xl lg:text-6xl">
+                <h2 className="text-4xl lg:text-6xl" data-aos="fade-up">
                   All Can Be <br />
                   Handled This Apps
                 </h2>
@@ -23,11 +23,12 @@ export default function Hero() {
               </div>
             </div>
           </div>
-          <div className="md:w-4/12">
-            <div className="-mt-52 md:mt-20 lg:mt-48 flex justify-center md:justify-end">
+          <div className="md:w-5/12">
+            <div className="jumping -mt-52 md:mt-20 lg:mt-48 flex justify-center md:justify-end">
               <img
                 src="https://astylers.com/appiah-elementor/wp-content/uploads/2021/07/rect818-5-1.png"
                 className="w-[80%] md:w-[90%]"
+                data-aos="zoom-in"
                 alt=""
               />
             </div>

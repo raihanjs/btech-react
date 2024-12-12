@@ -1,5 +1,5 @@
-import { CoffeeBtn, OrangeBtn } from "../../Components/OrangeBtn";
 import { IoMdArrowDropright } from "react-icons/io";
+import { CoffeeBtn, OrangeBtn } from "../../Components/Buttons";
 
 export default function PriceSection() {
   return (
@@ -7,7 +7,7 @@ export default function PriceSection() {
       <div className="container">
         {/* Title */}
         <div className="w-8/12 lg:w-6/12 mx-auto">
-          <div className="text-white text-center">
+          <div className="text-white text-center" data-aos="fade-up">
             <h2 className="text-4xl lg:text-6xl">Choose Our Price</h2>
             <p className="text-xl mt-2 mb-5">Friendly Price</p>
             <p className="text-lg mb-12">
@@ -19,7 +19,10 @@ export default function PriceSection() {
         {/* Price Cards Container */}
         <div className="md:flex justify-center items-start gap-5">
           {/* Card */}
-          <div className="md:w-4/12 bg-[#f24c00] text-center rounded-md py-8 px-4 lg:px-12 md:pr-12 lg:pr-28">
+          <div
+            className="md:w-4/12 bg-[#f24c00] text-center rounded-md py-8 px-4 lg:px-12 md:pr-12 lg:pr-28"
+            data-aos="fade-right"
+          >
             {/* Card Header */}
             <div className="text-white">
               <h6 className="text-xl">Expert</h6>
@@ -50,7 +53,10 @@ export default function PriceSection() {
           </div>
           <div className="md:w-8/12 md:flex gap-5 bg-[#2a4445] border-[#2a4445] border-[8px] lg:border-[20px] mt-12 md:-ml-12 lg:-ml-32 rounded-lg">
             {/* Card */}
-            <div className="md:w-6/12 bg-[#f4e2d9] text-center rounded-md py-8 px-3 lg:px-12">
+            <div
+              className="md:w-6/12 bg-[#f4e2d9] text-center rounded-md py-8 px-3 lg:px-12"
+              data-aos="fade-left"
+            >
               {/* Card Header */}
               <div className="text-black">
                 <h6 className="text-xl">Medium</h6>
@@ -80,7 +86,10 @@ export default function PriceSection() {
               </ul>
             </div>
             {/* Card */}
-            <div className="md:w-6/12 bg-[#f4e2d9] text-center rounded-md py-8 px-3 lg:px-12 mt-6 md:mt-0">
+            <div
+              className="md:w-6/12 bg-[#f4e2d9] text-center rounded-md py-8 px-3 lg:px-12 mt-6 md:mt-0"
+              data-aos="fade-left"
+            >
               {/* Card Header */}
               <div className="text-black">
                 <h6 className="text-xl">Basic</h6>

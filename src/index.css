@@ -3,9 +3,30 @@
 @tailwind utilities;
 
 body {
+  overflow: hidden;
   background: #2a4445;
+}
+
+header ul li:hover ul {
+  display: block;
 }
 
 .container {
   max-width: 1140px;
+}
+
+.jumping img:hover {
+  animation: moveUpDown 2s infinite ease-in-out;
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }

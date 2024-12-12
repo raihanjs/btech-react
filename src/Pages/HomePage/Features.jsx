@@ -1,4 +1,4 @@
-import { OrangeBtn } from "../../Components/OrangeBtn";
+import { OrangeBtn } from "../../Components/Buttons";
 
 export default function Features() {
   return (
@@ -7,7 +7,7 @@ export default function Features() {
         <div className="md:flex gap-5">
           <div className="md:w-6/12">
             <div className="text-white text-right">
-              <h2 className="text-4xl font-medium">
+              <h2 className="text-4xl font-medium" data-aos="fade-up">
                 Get The Best <br />
                 Amazing Features
               </h2>
@@ -22,7 +22,10 @@ export default function Features() {
             </div>
           </div>
           <div className="md:w-6/12 mt-8 md:mt-0">
-            <div className="flex justify-center gap-3 flex-wrap">
+            <div
+              className="flex justify-center gap-3 flex-wrap"
+              data-aos="fade-up"
+            >
               {/* Feature Item */}
               <div className="p-5 bg-[#f4e2d9] max-w-[210px] rounded-md text-center">
                 <img
